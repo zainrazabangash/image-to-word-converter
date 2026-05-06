@@ -1,0 +1,19 @@
+# Image to Word Converter - Web Dependencies
+# Python 3.8+
+
+# Web Framework
+streamlit>=1.28.0
+
+# Image Processing
+Pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# OCR Engine
+pytesseract>=0.3.10
+
+# Document Generation
+python-docx>=0.8.11
+
+# Note: Tesseract OCR is included in Streamlit Cloud
+# For local development, install Tesseract OCR from: https://github.com/UB-Mannheim/tesseract/wiki
